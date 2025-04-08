@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mutal Amepp</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOM8d7x1z5l5e5e5e5e5e5e5e5e5e5e5e5e5e5" crossorigin="anonymous" />
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-sm bg-body-tertiary">
+            <div class="container-fluid">
+                <img class="logo" src="images/logoamepp.PNG" alt="logo">
+                <a class="navbar-brand d-none" href="#">Navbar</a>
+                <ul class="navbar-nav m-sm-auto">
+                    <li class="nav-item"><a class="nav-link" href="#noticiasCarrusel"
+                            style="font-size: 20px;">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicios" style="font-size: 20px;">Servicios</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#talleres" style="font-size: 20px;">Talleres</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#viajesCarrusel" style="font-size: 20px;">Viajes</a>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#unete" style="font-size: 20px;">Afilíate</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container" id="home">
+
+        <!-- Noticias -->
+        <div class="row">
+            <!-- Repetir este bloque por cada artículo -->
+            <div id="noticiasCarrusel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <!-- Artículo 1 -->
+                    <div class="carousel-item active">
+                        <div class="card" id="card-noticia">
+                            <img src="images/comision.jpg" class="card-img-carrusel" alt="Imagen del artículo"
+                                height="300px">
+                            <div class="card-body">
+                                <h5 class="card-title">Nuevas Autoridades: Fuerza y Compromiso</h5>
+                                <p class="card-text">
+                                    En el mes de noviembre del 2023, nuestra comunidad de afiliados se reunió en una
+                                    asamblea crucial para el futuro de la Mutual Amepp. En un ambiente de participación
+                                    activa y compromiso, se votó por quórum a las nuevas autoridades de la Comisión
+                                    Directiva.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artículo 2 -->
+                    <div class="carousel-item">
+                        <div class="card" id="card-noticia">
+                            <img src="images/comision.jpg" class="card-img-carrusel" alt="Imagen del artículo">
+                            <div class="card-body">
+                                <h5 class="card-title">Evento Comunitario: Unidos por el Cambio</h5>
+                                <p class="card-text">
+                                    La comunidad de la Mutual Amepp organizó un evento para unir a los afiliados y
+                                    promover
+                                    el bienestar social. Fue un éxito rotundo, dejando grandes expectativas para futuras
+                                    actividades.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Artículo 3 -->
+                    <div class="carousel-item">
+                        <div class="card" id="card-noticia">
+                            <img src="images/comision.jpg" class="card-img-carrusel" alt="Imagen del artículo">
+                            <div class="card-body">
+                                <h5 class="card-title">Proyectos en Marcha: Innovación y Desarrollo</h5>
+                                <p class="card-text">
+                                    Con nuevos planes estratégicos, la Mutual Amepp avanza en proyectos que prometen
+                                    beneficiar a todos los afiliados. ¡Mantente informado de las próximas
+                                    actualizaciones!
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controles del carrusel -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#noticiasCarrusel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#noticiasCarrusel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Siguiente</span>
+                </button>
+            </div>
+
+
+            <!-- Servicios -->
+            <section class="mt-5" id="servicios">
+                <h1 class="mb-4 text-center">Explora Nuestros Servicios</h1>
+                <h2 class="text-center mb-4">
+                    Descubre los beneficios que ofrecemos para nuestra comunidad, diseñados para apoyarte en todas tus
+                    necesidades. Desde salud hasta servicios financieros, ¡estamos aquí para ti!
+                </h2>
+                <div class="row mt-2">
+                    <!-- Tarjeta 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s1.PNG" class="card-img-top" alt="Ópticas">
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s2.PNG" class="card-img-top" alt="Farmacias">
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s3.PNG" class="card-img-top" alt="Préstamos">
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s4.PNG" class="card-img-top" alt="Deportes">
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s5.PNG" class="card-img-top" alt="Eventos">
+                        </div>
+                    </div>
+
+                    <!-- Tarjeta 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-beneficios">
+                            <img src="images/Servicios/s6.PNG" class="card-img-top" alt="Educación">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Talleres -->
+            <section class="mt-5" id="talleres">
+                <h1 class="mb-4 text-center">¡Descubre Nuestros Talleres!</h1>
+                <h2 class="text-center mb-4">
+                    Ofrecemos una variedad de talleres diseñados para tu desarrollo personal y profesional. Participa,
+                    aprende y comparte experiencias únicas con nuestra comunidad.
+                </h2>
+
+                <div class="row mt-2">
+                    <!-- Taller 1 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t1.PNG" class="card-img-top" alt="Taller 1">
+                        </div>
+                    </div>
+
+                    <!-- Taller 2 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t2.PNG" class="card-img-top" alt="Taller 2">
+                        </div>
+                    </div>
+
+                    <!-- Taller 3 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t3.jpeg" class="card-img-top" alt="Taller 3">
+                        </div>
+                    </div>
+
+                    <!-- Taller 4 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t4.jpeg" class="card-img-top" alt="Taller 4">
+                        </div>
+                    </div>
+
+                    <!-- Taller 5 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t5.jpeg" class="card-img-top" alt="Taller 5">
+                        </div>
+                    </div>
+
+                    <!-- Taller 6 -->
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 text-center" id="card-talleres">
+                            <img src="images/Talleres/t6.jpeg" class="card-img-top" alt="Taller 6">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Viajes -->
+            <div class="row">
+                <!-- Carrusel -->
+                <div id="viajesCarrusel" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <!-- Artículo 1 -->
+                        <div class="carousel-item active">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/1.jpeg" class="card-img-carrusel" alt="Imagen del artículo"
+                                    height="300px">
+                            </div>
+                        </div>
+                        <!-- Artículo 2 -->
+                        <div class="carousel-item">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/2.jpeg" class="card-img-carrusel" alt="Imagen del artículo">
+                            </div>
+                        </div>
+                        <!-- Artículo 3 -->
+                        <div class="carousel-item">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/3.jpeg" class="card-img-carrusel" alt="Imagen del artículo">
+                            </div>
+                        </div>
+                        <!-- Artículo 4 -->
+                        <div class="carousel-item">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/4.jpeg" class="card-img-carrusel" alt="Imagen del artículo">
+                            </div>
+                        </div>
+                        <!-- Artículo 5 -->
+                        <div class="carousel-item">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/4.jpeg" class="card-img-carrusel" alt="Imagen del artículo">
+                            </div>
+                        </div>
+                        <!-- Artículo 6 -->
+                        <div class="carousel-item">
+                            <div class="card" id="card-viajes">
+                                <img src="images/viajes/5.jpeg" class="card-img-carrusel" alt="Imagen del artículo">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Controles del carrusel -->
+                    <button class="carousel-control-prev" type="button" data-bs-target="#viajesCarrusel"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#viajesCarrusel"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                    </button>
+                </div>
+            </div>
+
+
+
+            <!-- Sección de Únete a la Mutual Amepp -->
+
+            <div class="row justify-content-center" id="unete">
+                <div class="col-sm-6">
+                    <div class="unete card">
+                        <div class="card-body">
+                            <h2 class="card-title text-center fw-bold text-primary mb-4">
+                                Únete a la Mutual Amepp: ¡Tu Socio en Bienestar!
+                            </h2>
+                            <p class="card-text text-center fs-5 text-dark mb-4">
+                                Descubre los beneficios y la comunidad que te está esperando. Somos más que una mutual,
+                                somos tu apoyo en cada paso.
+                            </p>
+                            <div class="text-start">
+                                <h4 class="text-info fw-bold mb-3">Servicios Exclusivos:</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">🌍 <strong>Viajes:</strong> Explora nuestra Argentina
+                                        con
+                                        paquetes turísticos diseñados especialmente para ti.</li>
+                                    <li class="list-group-item">🛍️ <strong>Descuentos:</strong> Ahorra dinero en tus
+                                        compras diarias en comercios adheridos.</li>
+                                    <li class="list-group-item">💳 <strong>Préstamos:</strong> Accede a opciones de
+                                        financiamiento con tasas preferenciales.</li>
+                                    <li class="list-group-item">👓 <strong>Ópticas y Farmacias:</strong> Cuida tu salud
+                                        visual y bienestar con descuentos en lentes y medicamentos.</li>
+                                    <li class="list-group-item">🛡️ <strong>Coseguro:</strong> (Próximamente)
+                                        Tranquilidad
+                                        para ti y tu familia en momentos de necesidad.</li>
+                                </ul>
+                            </div>
+                            <div class="text-start mt-4">
+                                <h4 class="text-info fw-bold mb-3">Talleres y Actividades:</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">🎨 <strong>Talleres de Pintura:</strong> Despierta tu
+                                        creatividad en nuestros talleres artísticos.</li>
+                                    <li class="list-group-item">🎓 <strong>Charlas y Capacitaciones:</strong> Aprende
+                                        sobre
+                                        temas relevantes para tu vida personal y profesional.</li>
+                                    <li class="list-group-item">🎉 <strong>Eventos Sociales:</strong> Conecta con otros
+                                        afiliados y comparte experiencias en reuniones y celebraciones.</li>
+                                </ul>
+                            </div>
+                            <div class="text-start mt-4">
+                                <h4 class="text-info fw-bold mb-3">Solidaridad y Apoyo Mutuo:</h4>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">🤝 <strong>Ayuda Recíproca:</strong> En la Mutual Amepp,
+                                        no
+                                        estás solo. Nos cuidamos mutuamente.</li>
+                                    <li class="list-group-item">💜 <strong>Confianza y Camaradería:</strong> Construimos
+                                        una
+                                        comunidad basada en valores sólidos.</li>
+                                </ul>
+                            </div>
+                            <div class="text-center mt-5">
+                                <a href="/afiliarse.html" class="btn btn-primary btn-lg px-4">
+                                    Contacta por WhatsApp
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Fin sección de Únete a la Mutual Amepp  -->
+
+
+            <footer class="bg-light text-center">
+                <div class="container p-4 d-flex justify-content-around">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <h5>Contacto</h5>
+                            <p>9 de Julio 362 este, Capital, San Juan</p>
+                            <p>Correo electrónico: info"&#64;"example.com</p>
+                            <p>Teléfono: +01 234 567 88</p>
+                            <h5>Redes Sociales</h5>
+                            <ul class="list-unstyled">
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-8">
+                            <h5>Ubicación via maps</h5>
+                            <ul class="list-unstyled">
+                                <iframe
+                                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3400.34759632338!2d-68.52257672347275!3d-31.542073902340373!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96816a9c19234ca5%3A0x1fb2eb11194a06bc!2s9%20de%20Julio%20Este%20362%2C%20J5402AMH%20San%20Juan!5e0!3m2!1ses!2sar!4v1699905145508!5m2!1ses!2sar"
+                                    width="400" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>© 2025 Derechos de autor: amepp.com.ar</p>
+                    </div>
+                </div>
+            </footer>
+
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+                integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+                crossorigin="anonymous"></script>
+
+
+
+</body>
+
+</html>
